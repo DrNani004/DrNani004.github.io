@@ -4,219 +4,105 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Dr Nani - Doctor of Pharmacy, Healthcare Professional and Clinical Research Portfolio.">
+<meta name="description" content="Dr Nani - Doctor of Pharmacy, Healthcare Professional dedicated to patient care and clinical research.">
 <title>Dr Nani | Healthcare Professional</title>
-
 <style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  background: #f5f7fa;
-  color: #25344a;
-  line-height: 1.7;
-}
-
-nav {
-  background: #071c35;
-  padding: 18px 8%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.logo {
-  color: white;
-  font-size: 25px;
-  font-weight: bold;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 10px;
-  font-size: 14px;
-}
-
-.hero {
-  background: linear-gradient(120deg,#071c35,#126b78);
-  color: white;
-  text-align: center;
-  padding: 100px 20px;
-}
-
-.hero h1 {
-  font-size: 48px;
-  margin-bottom: 12px;
-}
-
-.hero h2 {
-  font-size: 22px;
-  font-weight: normal;
-  color: #c8e9ed;
-}
-
-.hero p {
-  margin: 20px auto;
-  max-width: 650px;
-}
-
-.btn {
-  display: inline-block;
-  margin-top: 20px;
-  background: #d6b56d;
-  color: #071c35;
-  padding: 12px 28px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-}
-
-section {
-  max-width: 1050px;
-  margin: 35px auto;
-  padding: 40px 30px;
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 5px 25px rgba(0,0,0,.05);
-}
-
-section h2 {
-  color: #126b78;
-  margin-bottom: 20px;
-  font-size: 27px;
-}
-
-.card {
-  background: #f4f8fa;
-  border-left: 4px solid #126b78;
-  padding: 20px;
-  margin: 15px 0;
-  border-radius: 5px;
-}
-
-.skills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-}
-
-.skills span {
-  background: #e6f1f3;
-  padding: 10px 16px;
-  border-radius: 20px;
-  color: #126b78;
-}
-
-footer {
-  background: #071c35;
-  color: white;
-  text-align: center;
-  padding: 30px 15px;
-}
-
-@media(max-width:600px) {
-  .hero h1 {font-size: 36px;}
-  nav {justify-content: center;}
-  nav a {margin: 6px;}
-  section {margin: 20px 12px;padding: 25px 20px;}
-}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#f5f7fb;color:#182333;line-height:1.7}
+header{background:#101d35;color:white;padding:22px 8%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap}
+.logo{font-size:27px;font-weight:bold;color:#62d6c5}
+nav a{color:white;text-decoration:none;margin:0 10px;font-size:14px}
+.hero{background:linear-gradient(135deg,#101d35,#174d64);color:white;text-align:center;padding:100px 20px}
+.hero h1{font-size:48px;margin-bottom:10px}
+.hero h2{color:#62d6c5;font-size:23px}
+.hero p{max-width:650px;margin:20px auto;color:#e1eaf1}
+.btn{display:inline-block;background:#62d6c5;color:#102238;padding:12px 27px;border-radius:6px;text-decoration:none;font-weight:bold;margin-top:15px}
+section{padding:65px 9%;max-width:1100px;margin:auto}
+h2.title{color:#123d55;text-align:center;font-size:30px;margin-bottom:30px}
+.card{background:white;padding:25px;border-radius:12px;margin:15px 0;box-shadow:0 5px 20px #10223810}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.card h3{color:#167c80;margin-bottom:10px}
+footer{background:#101d35;color:white;text-align:center;padding:30px}
+ul{padding-left:22px}
 </style>
 </head>
-
 <body>
 
+<header>
+<div class="logo">Dr Nani</div>
 <nav>
-  <div class="logo">DR NANI</div>
-  <div>
-    <a href="#about">About</a>
-    <a href="#education">Education</a>
-    <a href="#experience">Experience</a>
-    <a href="#skills">Skills</a>
-    <a href="#contact">Contact</a>
-  </div>
+<a href="#about">About</a>
+<a href="#education">Education</a>
+<a href="#experience">Experience</a>
+<a href="#skills">Skills</a>
+<a href="#contact">Contact</a>
 </nav>
+</header>
 
 <div class="hero">
-  <h1>Dr Nani</h1>
-  <h2>Doctor of Pharmacy | Healthcare Professional</h2>
-  <p>
-    Dedicated to healthcare excellence, patient care,
-    clinical research and professional development.
-  </p>
-  <a class="btn" href="#about">Explore My Profile</a>
+<h1>Dr Nani</h1>
+<h2>Doctor of Pharmacy | Healthcare Professional</h2>
+<p>Dedicated to healthcare excellence, patient care, clinical research and professional development.</p>
+<a href="#about" class="btn">Explore My Profile</a>
 </div>
 
 <section id="about">
-  <h2>About Me</h2>
-  <p>
-    Welcome to my professional portfolio.
-    I am a Doctor of Pharmacy professional with
-    healthcare experience and a strong interest
-    in clinical research, pharmacology and patient care.
-  </p>
+<h2 class="title">About Me</h2>
+<div class="card">
+<p>I am a Doctor of Pharmacy professional passionate about patient care, clinical healthcare services, medication safety and clinical research. My goal is to contribute to better healthcare outcomes through knowledge, dedication and continuous learning.</p>
+</div>
 </section>
 
 <section id="education">
-  <h2>Education</h2>
-  <div class="card">
-    <h3>Doctor of Pharmacy (Pharm.D)</h3>
-    <p>Andhra University</p>
-  </div>
-  <div class="card">
-    <h3>Bachelor of Pharmacy (B.Pharm)</h3>
-    <p>Andhra University</p>
-  </div>
+<h2 class="title">Education</h2>
+<div class="card">
+<h3>Doctor of Pharmacy (Pharm.D)</h3>
+<p>Andhra University</p>
+</div>
+<div class="card">
+<h3>Bachelor of Pharmacy (B.Pharm)</h3>
+<p>Andhra University</p>
+</div>
 </section>
 
 <section id="experience">
-  <h2>Professional Experience</h2>
-  <div class="card">
-    <h3>Physician Assistant</h3>
-    <p>4S Hospital, Visakhapatnam</p>
-    <p>Healthcare support and patient care.</p>
-  </div>
-  <div class="card">
-    <h3>Health Assistant</h3>
-    <p>Bhimavaram</p>
-    <p>Healthcare assistance and patient support.</p>
-  </div>
-  <div class="card">
-    <h3>Clinical Training</h3>
-    <p>King George Hospital, Visakhapatnam</p>
-    <p>Clinical rotations and patient-care exposure.</p>
-  </div>
+<h2 class="title">Professional Experience</h2>
+<div class="card">
+<h3>Physician Assistant</h3>
+<p>4S Hospital, Visakhapatnam</p>
+</div>
+<div class="card">
+<h3>Health Assistant</h3>
+<p>Bhimavaram</p>
+</div>
+<div class="card">
+<h3>Clinical Internship</h3>
+<p>King George Hospital (KGH), Visakhapatnam</p>
+<p>Clinical rotations in General Medicine, Orthopedics, Pediatrics and Gynecology.</p>
+</div>
 </section>
 
 <section id="skills">
-  <h2>Professional Interests & Skills</h2>
-  <div class="skills">
-    <span>Clinical Research</span>
-    <span>Pharmacology</span>
-    <span>Patient Care</span>
-    <span>Clinical Pharmacy</span>
-    <span>Healthcare</span>
-    <span>Microsoft Excel</span>
-    <span>Medical Documentation</span>
-  </div>
+<h2 class="title">Professional Interests</h2>
+<div class="grid">
+<div class="card"><h3>Patient Care</h3><p>Patient-focused healthcare support.</p></div>
+<div class="card"><h3>Clinical Research</h3><p>Clinical research and development.</p></div>
+<div class="card"><h3>Medication Safety</h3><p>Rational medication use and safety.</p></div>
+<div class="card"><h3>Healthcare</h3><p>Continuous professional development.</p></div>
+</div>
 </section>
 
 <section id="contact">
-  <h2>Contact</h2>
-  <p>For professional opportunities and collaborations:</p>
-  <p>Email: Add your professional email here</p>
-  <p>Location: Andhra Pradesh, India</p>
+<h2 class="title">Contact Me</h2>
+<div class="card">
+<p>For professional opportunities and healthcare collaborations:</p>
+<p>Email: Add your professional email here</p>
+</div>
 </section>
 
 <footer>
-  <p>© 2026 Dr Nani | Professional Portfolio</p>
-  <p>Healthcare • Clinical Research • Patient Care</p>
+<p>© 2026 Dr Nani | Healthcare Professional</p>
+<p>Dedicated to Healthcare Excellence</p>
 </footer>
 
 </body>
